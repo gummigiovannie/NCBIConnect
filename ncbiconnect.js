@@ -19,7 +19,7 @@
 
 
    function NCBIConnect(db) {
-      this.__URL = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
+      this.__URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
       if(!this.__dbMap.hasOwnProperty(db)) {
          throw new Error('Database "' + db + '" not supported');
       }
